@@ -289,7 +289,7 @@ async def get_readings_summary(hours: int = 24):
     """Get summarized statistics for recent readings."""
     try:
         # Calculate time threshold
-        threshold = datetime.now(timezone.utc) - datetime.timedelta(hours=hours)
+        threshold = datetime.now(timezone.utc) - timedelta(hours=hours)
         
         # Query recent readings
         readings = await db.buoy_readings.find({
