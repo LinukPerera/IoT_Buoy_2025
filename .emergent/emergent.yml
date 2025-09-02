@@ -1,3 +1,5 @@
-{
-  "env_image_name": "fastapi_react_mongo_shadcn_base_image_cloud_arm:release-27082025-1"
-}
+# Original configuration commented out for safety:
+# env_image_name: "fastapi_react_mongo_shadcn_base_image_cloud_arm:release-27082025-1"
+
+# Safe fallback to avoid breaking anything expecting this key
+env_image_name: "noop"
