@@ -37,15 +37,15 @@ api_router = APIRouter(prefix="/api")
 # Firebase configuration (placeholder - user will configure)
 FIREBASE_CONFIG = {
     "type": "service_account",
-    "project_id": "YOUR_PROJECT_ID",
-    "private_key_id": "YOUR_PRIVATE_KEY_ID",
-    "private_key": "YOUR_PRIVATE_KEY",
-    "client_email": "YOUR_CLIENT_EMAIL",
-    "client_id": "YOUR_CLIENT_ID",
+    "project_id": "buoy2-cbc1f",
+    "private_key_id": "6131f021746cad48119b367414da988bfdeed49c",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCdKGpqkZiPmHOY\n806A1itCv6fcsZrbmYnquQdMQQjZAcrY0ZpkrkDTir1/d6O6XgDvEixJTAgb61No\nycMXJyvUEL4v9aEMfEct16kOHE7VCxmpOgT9GVJsKyKi49NCdTYV5zkvkPalLozR\nR8Ihuu64kn/LF0ufzhmxcFUjSftgwukuNxTiuse1gZuSi8h8PZRaIal9Rrgpus4h\naBEQP46zl5jwgMpfywn9ABiNYSdnj2pplwjUZOfWGfY0Wk1oGPMZ7NGYav7QkzcY\n7uprAZzAMb/C3HAo5HK0Wjpm7WZxIc2ogz+e6QxbwWCYnsIk+JS5fwWjT1R7Pitl\nO4VmMjM5AgMBAAECggEADVqKdZ+wIj4b+cUYHeO/gp5yZFLwYPR86ZBAnylvgluf\n9tMTQWF6af8soZDIPWUQwz+nZQWsMrhzj+svmTS03qzFhvcMxi4mhi4AVA3yYjEy\nmanaaVR7fRbKjKNl0gx6RLDZr8Grk4GPFEFQAjm2CxeM+vQccum6Tn9zBy/ux4aQ\n32naaiXNXv78hV9xnfGQSAyD68p/B7fwbjDceJQdR9uK94nICy4ohmW1rCDoVlrd\nrT7I2vmm+jqXnsb467VyHs6VpZCopUJXWcWAtaUxMwCu2cFDNi3Io5hOHhbVo5yQ\n3cP/EW0g2MyjJNSu/kpxcWlOBqVrQEXIaAU4RssN+QKBgQDJBWoE1ZmG35Sj/dOR\nnP4XTfIqItdQ7lllYogGeb2YArMQxuXteQTEO2YchIo0xh+EehCDZLkQrHetkOcY\nlen3fsrK/xfdQp4SjsPFuptl6zXcFuqF9Yc+W54rkZipYpfTshoxLA5eEB0+eB5t\nkbMak51p5U/x+v6E6pZGlpcHPwKBgQDII+UJfh4uEr6uQVQyNgyaXVWnu5mJZOzB\n3PFD/HIQYAGb+PacUDF2ADQzTLpsjODlCrBR7bOoZlYKDeSOKIglD4fwZzOlb2r0\nep8fZUF1nr4zy5Fz7SKZY9D5DitYkr5cqdfumgNOneR++7OM+8Z0bG2xsCudNJfi\nZ4IEfONfhwKBgH1+xcsy1l/fINqoUfar/ezqmm43xhgeVOz4cFcqlXRa6xNkOJLi\nZFllg7/19povvelkkv6UWPzRzv0qYzt0C9aY711/l5RoTGrlec7tSqp8BunZ3Ju4\nxq/lXn9wq8/DX2mn3LYp/OY4RSmEr+pTdW74DOPZZul4eoDcOujihnLdAoGBAJuc\nrRxwXu7bzD6YtOpFdA8hutOr3Xkia6NgMob15Yot25J2ROjMwWhKSEwKwHheIQ50\n/Rr2gtXQm909aBPQF+sY5E1bMKDUvIhSPx6eEANv5dtH0FQecORq47SB+9nmXvSV\najsurJuX0G2bLsPTjz4+gBvEKmUU23NBn6n1oKRJAoGAcTB8hrC6lSex90KmZlas\nLpMeWgKDSrdOQ52rP7UiFHXdfa/OloNYfO6EObu0fe6vPN1P4KQTmYnSeu9ovwBA\nG/hTgtUCpsTdIahY+LdrYqL85IX2ZSCtyBYHVd5tKkcodA81ISHs1kujIx2Sj5Ua\nFDD4Lv7tY+gqBCqTIf0n0iw=\n-----END PRIVATE KEY-----\n",
+    "client_email": "firebase-adminsdk-fbsvc@buoy2-cbc1f.iam.gserviceaccount.com",
+    "client_id": "113984054541367183797",
     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
     "token_uri": "https://oauth2.googleapis.com/token",
     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-    "client_x509_cert_url": "YOUR_CLIENT_CERT_URL",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbsvc%40buoy2-cbc1f.iam.gserviceaccount.com",
     "universe_domain": "googleapis.com"
 }
 
